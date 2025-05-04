@@ -11,9 +11,14 @@ print(type(c))
 
 print(type(d))
 
-#git add .
-#git commit -m "learn about python"
-#git push
+name="Rishan"
+school='Orchids The International School'
+grade="9"
+
+print(f"name is{name}school is{school} grade is{grade}")
+print(f"sum of 2 and 3 is {2+3})
+      
+
 
 
 
