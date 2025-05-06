@@ -23,3 +23,8 @@ print(x4[3])
 print(x4[7:])
 print(x4[7:15])
 print(x4[::-1])
+
+import calendar
+
+x= int(input("Enter a Year: "))
+print(calendar.calendar(x))
