@@ -15,3 +15,11 @@ print(f"y2 value is {y2}")
 x3=-12
 y3=bool(x3)
 print(f"y3 value is {y3}")
+
+#indexing
+x4= "Rishan Sandeep Gadhia"
+print(x4[3])
+
+print(x4[7:])
+print(x4[7:15])
+print(x4[::-1])
