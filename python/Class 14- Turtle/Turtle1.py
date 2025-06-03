@@ -2,12 +2,29 @@ import turtle
 
 t=turtle.Turtle()
 
-for i in range (4):
-    t.forward(100)
-    t.left(90)
-    t.forward(100)
-    t.left(90)
-    t.forward(100)
-    t.left(90)
-    t.forward(100)
-    t.left(90)
+t.pensize(5)
+t.speed(0
+        )
+
+colorlist= ["red" ,"blue" ,"green" ,"yellow" ,"purple"]
+
+for i in range (200):
+    t.color(colorlist[i%5])
+    t.forward(i*5)
+    t.left(144)
+#for i in range (5):
+ #   t.forward(100)
+  #  t.left(144)
+
+
+#for i in range (4):
+ #   t.forward(100)
+  #  t.left(90)
+   # t.forward(100)
+    #t.left(90)
+    #t.forward(100)
+    #t.left(90)
+    #t.forward(100)
+    #t.left(90)
+
+turtle.done()
